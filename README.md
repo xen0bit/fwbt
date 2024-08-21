@@ -1,5 +1,7 @@
 # fwbt
 
+Writeup: https://www.labs.greynoise.io/grimoire/2024-08-20-bluuid-firewalla/
+
 Proof of Concept code for interaction with Firewalla via Bluetooth Low-Energy and exploitation of CVE-2024-40892 / CVE-2024-40893
 
 Without any configuration it will scan for Firewalla's in local proximity and leak the checksum of the License UUID.
